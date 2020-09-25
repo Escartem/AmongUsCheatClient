@@ -1,4 +1,4 @@
-## AmongUsCheatClient
+## Among Us Cheat Client
 > ### This is a powerfull cheat client for Among Us
 
 ## Features:
