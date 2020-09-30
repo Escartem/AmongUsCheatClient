@@ -11,6 +11,7 @@
 - Noclip
 
 ## Usage
+# :warning: Warning - The version v2020.9.22s of the game is currently not supported
 Download the latest release from the [release page](https://github.com/Escartem/AmongUsCheatClient/releases)
 
 Start AmongUs
