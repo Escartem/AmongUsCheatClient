@@ -2,7 +2,7 @@
 import os
 import time
 try:
-	dll_path = os.path.abspath("AUCC-0.0.3-beta1.dll")
+	dll_path = os.path.abspath("AUCC-0.0.3-beta2.dll")
 	print("Found the dll file")
 except:
 	print("Could not load the dll file")
