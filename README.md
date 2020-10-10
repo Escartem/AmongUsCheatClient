@@ -1,3 +1,9 @@
+[![Downloads](https://img.shields.io/github/downloads/Escartem/AmongUsCheatClient/total?color=%2303fc0f&logo=github&logoColor=%23fff&style=for-the-badge)](https://github.com/Escartem/AmongUsCheatClient/releases)
+[![Release](https://img.shields.io/github/v/release/Escartem/AmongUsCheatClient?color=%2342aaf5&logo=github&logoColor=%23fff&style=for-the-badge)](https://github.com/Escartem/AmongUsCheatClient/releases)
+[![Commits](https://img.shields.io/github/commits-since/Escartem/AmongUsCheatClient/0.0.1?color=%2342f58d&logo=github&logoColor=%23fff&style=for-the-badge)](https://github.com/Escartem/AmongUsCheatClient/commits/master)
+[![Discord](https://img.shields.io/discord/503554429648371712?style=for-the-badge)](https://discord.gg/fzRdtVh)
+[![Issues](https://img.shields.io/github/issues/Escartem/AmongUsCheatClient?style=for-the-badge)](https://github.com/Escartem/AmongUsCheatClient/issues)
+
 ## Among Us Cheat Client
 > ### This is a simple cheat client for Among Us
 
