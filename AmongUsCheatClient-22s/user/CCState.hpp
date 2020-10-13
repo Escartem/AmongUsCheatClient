@@ -18,6 +18,7 @@ namespace CCState
 
     extern bool NoClip;
     extern bool MarkImposters;
+    extern bool ShowGhosts;
     extern bool ShowRadar;
     extern float RadarZoom;
 

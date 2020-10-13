@@ -140,6 +140,7 @@ HRESULT __stdcall D3D_FUNCTION_HOOK(IDXGISwapChain* pThis, UINT SyncInterval, UI
             }
             ImGui::Checkbox("NoClip", &CCState::NoClip);
             ImGui::Checkbox("Mark Imposters", &CCState::MarkImposters);
+            ImGui::Checkbox("Show Ghosts", &CCState::ShowGhosts);
             ImGui::Checkbox("Radar", &CCState::ShowRadar);
             ImGui::Text("Radar Zoom");
             ImGui::SliderFloat("##RadarZoom", &CCState::RadarZoom, 4.0F, 16.0F, "%.f", 1.0F);
@@ -557,6 +558,17 @@ void HudHook(MethodInfo* m)
     {
         auto comp = Component_get_gameObject((Component*)(*PlayerControl__TypeInfo)->static_fields->LocalPlayer, NULL);
         GameObject_set_layer(comp, LayerMask_NameToLayer(CreateNETStringFromANSI("Ghost"), NULL), NULL);
+    }
+
+    if (CCState::ShowGhosts) {
+
+
+        for (auto player : GetAllPlayers())
+        {
+            auto data = GetPlayerData(player);
+            if (!PlayerControl_get_Visible(player, NULL) && data->fields.IsDead)
+                PlayerControl_set_Visible(player, true, NULL);
+        }
     }
 
     if (CCState::MarkImposters)
