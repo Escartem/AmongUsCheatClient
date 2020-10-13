@@ -7,6 +7,8 @@
 ## Among Us Cheat Client
 > ### This is a simple cheat client for Among Us
 
+# :warning: Important note : the beta version that works for the latest version of the game (2020.9.22s) is very unstable and some features will crash the game
+
 ## Features:
 - Control doors
 - Murder anyone even if you're not impostor
