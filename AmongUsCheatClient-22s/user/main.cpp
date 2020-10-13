@@ -135,9 +135,8 @@ HRESULT __stdcall D3D_FUNCTION_HOOK(IDXGISwapChain* pThis, UINT SyncInterval, UI
         if (ImGui::CollapsingHeader("Game"))
         {
             if (ImGui::Button("Call Meeting"))
-            {
                 PlayerControl_CmdReportDeadBody((*PlayerControl__TypeInfo)->static_fields->LocalPlayer, NULL, NULL);
-            }
+
             ImGui::Checkbox("NoClip", &CCState::NoClip);
             ImGui::Checkbox("Mark Imposters", &CCState::MarkImposters);
             ImGui::Checkbox("Show Ghosts", &CCState::ShowGhosts);
