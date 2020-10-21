@@ -7,14 +7,13 @@
 ## Among Us Cheat Client
 > ### This is a simple cheat client for Among Us
 
-# :warning: Important note : the beta version that works for the latest version of the game (2020.9.22s) is very unstable and some features will crash the game more infos in the next sections
-
+## :warning: Make sure you use the correct version of the client depending of the version of your game
 ## Supported versions :
 | Version of the game | Version of the client required | Statut of the client |
 | ---- | ---- | ---- |
 | 2020.9.9s |  0.0.2 | :white_check_mark: Everything working |
-| 2020.9.22s | 0.0.3-beta | :warning: Most features in progress |
-| 2020.10.8i | Not supported | :x: Work in progress |
+| 2020.9.22s | 0.0.3-beta | :warning: Most features not working |
+| 2020.10.8i | Not supported | :x: Not supported yet |
 
 ## Features:
 - Control doors
