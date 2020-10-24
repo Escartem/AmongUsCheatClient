@@ -25,6 +25,8 @@
 
 ## About the client
 
+## If you want to contribute to the project, look up the CONTRIBUTING.md file for more infos
+
 ## :warning: This client is NOT a virus, it is detected as one for most of antivirus because of the injector and the methods used in the files. If you don't trust me read the code by yourself.
 
 ## :warning: Make sure you use the correct version of the client depending of the version of your game.
