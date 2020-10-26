@@ -49,6 +49,8 @@
 
 ## Features
 
+# :warning: This list might change because of the new anti cheat system
+
 | Features | Working 2020.9.9s | Working 2020.9.22s |
 | ---- | ---- | ---- |
 | Force call meeting | :x: | :heavy_check_mark: |
