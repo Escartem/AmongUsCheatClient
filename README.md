@@ -43,7 +43,7 @@
 | ---- | ---- | ---- |
 | 2020.9.9s |  0.0.2 | :heavy_check_mark: Everything working |
 | 2020.9.22s | 0.0.3-beta | :warning: Most features not working |
-| 2020.10.8i | Not supported | :x: Not supported yet |
+| 2020.10.8i & later | Not supported | :x: Not supported yet |
 
 ---
 
