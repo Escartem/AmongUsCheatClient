@@ -9,6 +9,8 @@
 ## Among Us Cheat Client
 > ### This is a simple cheat client for Among Us made in C++ and python
 
+This is made for educational purposes only
+
 # :warning: The devs of among us updated the anticheat of the game, most of the cheats are not working anymore. I'm working on a way to find new cheats and fix the old ones.
 
 ---
