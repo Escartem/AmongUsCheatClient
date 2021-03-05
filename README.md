@@ -11,6 +11,8 @@
 
 This is made for educational purposes only
 
+# :warning:I have decided to archive this repository for now, since I am not planning to update it
+
 # :warning: The devs of among us updated the anticheat of the game, most of the cheats are not working anymore. I'm working on a way to find new cheats and fix the old ones.
 
 ---
