@@ -12,8 +12,12 @@ injector_ver = "0.0.4"
 # SETUP ARGS #
 parser = argparse.ArgumentParser(add_help=False)
 parser.add_argument("--dev", help=argparse.SUPPRESS, action="store_true")
+parser.add_argument("--two", help=argparse.SUPPRESS, action="store_true")
 args = parser.parse_args()
 ##############
+
+if args.two:
+	dll_ver = "0.0.2"
 
 # ERRORS CODES #
 errors = [
@@ -43,7 +47,7 @@ time.sleep(4)
 try:
 	# try to load the files
 	if args.dev:
-		dll_path = os.path.abspath("AmongUsCheatClient-22s\\Release\\AUCC.dll")
+		dll_path = os.path.abspath("AmongUsCheatClient-8i\\Release\\AUCC.dll")
 		injector_path = os.path.abspath("Injector-" + injector_ver + ".exe")
 	else:
 		try:
